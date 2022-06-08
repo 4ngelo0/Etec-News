@@ -1,0 +1,245 @@
+/* ------------------------------MENU E SIDEBAR-------------------- */
+
+.navbar {
+    position: sticky;
+    background: #003049;
+    color: #fff;
+}
+
+.menu-btn {
+    position: absolute;
+    left: 0;
+}
+
+.menu-btn:focus {
+    outline: none !important;
+    box-shadow: none;
+}
+
+.menu-btn.active #abrir {
+    visibility: hidden;
+}
+
+.menu-btn.active #fechar {
+    visibility: visible;
+    opacity: 1;
+    z-index: 100;
+    position: absolute;
+    margin-left: 170px;
+    top: 20px;
+    margin-left: 150px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -280px;
+    width: 280px;
+    height: 100vh;
+    padding: 23px 35px;
+    visibility: hidden;
+    background: #05101B;
+    color: #fff;
+    transition: 0.7s;
+    overflow-x: hidden;
+    z-index: 2;
+}
+
+.sidebar.active {
+    margin-left: 280px;
+    visibility: visible;
+}
+
+.sidebar header h3 {
+    font-size: 20px;
+    float: left;
+}
+
+.fechar {
+    height: 10px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    float: right;
+}
+
+.fechar:focus {
+    border: 0;
+    outline: 0;
+}
+
+.fechar img {
+    height: 20px;
+}
+
+.sidebar header::after {
+    content: '';
+    display: inline-block;
+    margin-top: 10px;
+    width: 100%;
+    border: 1px solid #396D89;
+}
+
+.sidebar .Help {
+    position: absolute;
+    bottom: 0;
+    width: 74%;
+}
+
+.sidebar .Help::before {
+    content: '';
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 100%;
+    border: 1px solid #396D89;
+}
+
+.category {
+    position: relative;
+    top: 50%;
+    transform: translate(-0%, -80%) !important;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar li {
+    padding: 0.5em;
+    cursor: pointer;
+    font-size: 1.2em;
+    margin-top: 10px;
+    transition: all 0.2s;
+}
+
+.sidebar li:hover {
+    background: #05344D;
+    border-radius: 10px;
+}
+
+.sidebar li a {
+    color: #fff;
+}
+
+.sidebar li img {
+    margin-right: 10px;
+}
+
+
+/* ------------------------------CARDS-------------------- */
+
+.card-home-principal,
+.card-secundary,
+.card-tertiary {
+    background-image: url(../img/img-principal.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    height: 35em;
+    box-shadow: 0px 0px 20px rgba(45, 27, 98, 0.51);
+    border-radius: 15px;
+}
+
+.card-secundary {
+    height: 15.5em;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center center;
+}
+
+.card-tertiary {
+    height: 12em;
+}
+
+.card-tertiary .content {
+    padding: 0;
+}
+
+.content {
+    background: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    padding: 10px 20px;
+    border-radius: 0px 0px 15px 15px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.2em;
+    line-height: 27px;
+    transition: height .5s ease-in-out;
+    overflow: hidden;
+}
+
+.card-home-principal:hover>.content {
+    height: 25%;
+}
+
+.card-secundary:hover>.content {
+    height: 65%;
+}
+
+.card-tertiary:hover>.content {
+    height: 80%;
+}
+
+.ver-mais {
+    opacity: 0;
+    padding: 10px 50px;
+    transition: .4s;
+    transition-delay: .4s;
+    border: none;
+    border-radius: 10px;
+    background-image: linear-gradient(90deg, #E47332, #960C0C);
+}
+
+.card-home-principal:hover .ver-mais,
+.card-secundary:hover .ver-mais,
+.card-tertiary:hover .ver-mais {
+    opacity: 1;
+    bottom: 0px;
+}
+
+
+/* ------------------------------CARROSEL-------------------- */
+
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.card img {
+    max-width: 70px;
+    max-height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    margin: .5em 2.5em;
+    padding: 10px;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+    border-radius: 15px;
+    align-items: center;
+    text-align: center;
+}
+
+.carousel-inner {
+    padding: 1em;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: #fcb9b9;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-control-prev {
+    margin-left: 20px;
+}
+
+.carousel-control-next {
+    right: 20px;
+}
