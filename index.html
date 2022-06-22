@@ -57,11 +57,10 @@
                 </ul>
             </div>
     </nav>
-    <!-- HOME -->
 
 
     <!-- CARDS HOME -->
-    <div class="container mt-5 home">
+    <div class="container home-home">
         <div class="row mt-5">
             <div class="col-12 col-sm-12 col-md-7">
                 <div class="container-fluid">
@@ -152,7 +151,7 @@
     </div>
 
     <!-- AVISOS -->
-    <div class="bg-danger mt-5">
+    <div class=" avisos py-3">
         <h2 class="text-white text-center">IMPORTANTE</h2>
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
@@ -247,7 +246,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-4">
+                                <div class="col-sm-4 mt-md-0 mt-5">
                                     <div class="box card-new">
                                         <div class="content">
                                             <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam...</p>
@@ -255,7 +254,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-4">
+                                <div class="col-sm-4 mt-md-0 mt-5">
                                     <div class="box card-new">
                                         <div class="content">
                                             <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam...</p>
@@ -659,7 +658,31 @@
 
     </div>
 
-
+    <div class="container mt-5">
+        <form class="contact">
+            <div class="row">
+                <div class="form-group col-md-6">
+                    <label for="name">Seu nome</label>
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Nome completo" required="">
+                </div>
+                <div class="form-group col-md-6 mt-3 mt-md-0">
+                    <label for="name">Seu e-mail</label>
+                    <input type="email" class="form-control" name="email" id="email" placeholder="E-mai válido" required="">
+                </div>
+            </div>
+            <div class="form-group mt-3">
+                <label for="name">Assunto</label>
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Assunto" required="">
+            </div>
+            <div class="form-group mt-3">
+                <label for="name">Mensagem</label>
+                <textarea class="form-control" name="message" rows="10" required=""></textarea>
+            </div>
+            <div class="my-3">
+                <div class="text-center"><button type="submit">Enviar mensagem</button></div>
+        </form>
+        </div>
+    </div>
     <!-- RODAPÉ -->
     <img src="./img/wave.svg" alt="wave" id="wave">
     <div class="container-fluid mt-5 bg-dark footer" id="footer">
@@ -670,9 +693,9 @@
                     <div class="row mt-5">
                         <div class="col-sm-3">
                             <img src="./img/ETEC.svg" alt="etec">
-                            <div class="social">
-                                <img src="./img/facebook.svg" alt="facebook">
-                                <img src="./img/instagram.svg" alt="instagram">
+                            <div class="social d-flex ml-5 mt-3">
+                                <img src="./img/facebook.png" alt="facebook" class="img-fluid mr-2">
+                                <img src="./img/instagram.png" alt="instagram" class="img-fluid">
                             </div>
                         </div>
                         <div class="col-sm-3">

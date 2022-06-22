@@ -1,7 +1,7 @@
         /* ------------------------------MENU E SIDEBAR-------------------- */
         
         .navbar {
-            position: sticky;
+            position: fixed;
             background: #003049;
             color: #fff;
         }
@@ -124,6 +124,10 @@
         }
         /* ------------------------------CARDS-------------------- */
         
+        .home-home {
+            margin-top: 10vh;
+        }
+        
         .card-home-principal,
         .card-secundary,
         .card-tertiary {
@@ -198,6 +202,15 @@
         }
         /* ------------------------------CARROSEL-------------------- */
         
+        .avisos {
+            margin-top: 10vh;
+            background: #a83333;
+        }
+        
+        .avisos h2 {
+            margin-top: 10px;
+        }
+        
         .cards-wrapper {
             display: flex;
             justify-content: center;
@@ -267,6 +280,18 @@
         .footer {
             background: #9D2A2A !important;
             color: #fff !important;
+        }
+        
+        .social img {
+            height: 2.1em;
+        }
+        
+        .contact .php-email-form {
+            border-top: 3px solid #b30e10;
+            border-bottom: 3px solid #b30e10;
+            padding: 30px;
+            background: #fff;
+            box-shadow: 0 0 24px 0 rgb(0 0 0 / 12%);
         }
         
         .footer a {
