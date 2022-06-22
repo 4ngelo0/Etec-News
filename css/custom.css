@@ -295,3 +295,9 @@
             position: relative;
             top: 100px;
         }
+        
+        .imagem img {
+            border-radius: 10px;
+            box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+            height: 440px;
+        }
