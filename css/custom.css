@@ -147,7 +147,7 @@
         }
         
         .card-tertiary {
-            height: 12em;
+            height: 15.5em;
         }
         
         .card-tertiary .content {
@@ -174,13 +174,10 @@
             height: 25%;
         }
         
+        .card-tertiary:hover>.content,
         .card-secundary:hover>.content,
         .card-new:hover>.content {
-            height: 65%;
-        }
-        
-        .card-tertiary:hover>.content {
-            height: 80%;
+            height: 60%;
         }
         
         .ver-mais {
