@@ -1,0 +1,13 @@
+@media (max-width: 740px ) {
+    .search-box{
+        visibility: hidden;
+    }
+    .search-input-sidebar{
+        visibility: visible;
+    }
+}
+@media (min-width: 740px) {
+    .search-input-sidebar.search-input-sidebar{
+        display: none;
+    }
+}

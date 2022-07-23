@@ -11,60 +11,82 @@
 
 <body>
 
-
-
+    
     <!-- NAVBAR // SIDEBAR -->
-    <nav class="navbar fixed-top d-flex">
-        <button class="btn menu-btn ">
-    <img src="./img/menu.svg" alt="menu" id="abrir">
-    </button>
-        <h2 class="navbar-brand mx-auto my-auto text-center">ETEC NEWS</h2>
-            <!-- SIDEBARR -->
-            <div class="sidebar">
-                <header>
-                    <h3 class="text-center logo-sidebar">ETEC NEWS</h3>
-                    <button class="fechar">
-                <img src="./img/fechar.svg" alt="fechar">
-            </button>
-                </header>
-                <ul class="category">
-                    <li>
-                        <img src="./img/home.svg" alt="home">
-                        <a href="#"></i>Home</a>
-                    </li>
-                    <li>
-                        <img src="./img/alert-circle.svg" alt="avisos">
-                        <a href="#"></i>Avisos</a>
-                    </li>
-                    <li>
-                        <img src="./img/paperclip.svg" alt="noticias">
-                        <a href="#"></i>Notícias</a>
-                    </li>
-                    <li>
-                        <img src="./img/film.svg" alt="videos">
-                        <a href="#"></i>Vídeos</a>
-                    </li>
-                </ul>
-                <ul class="Help">
-                    <li><img src="./img/mail.svg" alt="email">
-                        <a href="#"></i>Contate-nos</a>
-                    </li>
-                    <li><img src="./img/help-circle.svg" alt="duvidas">
-                        <a href="#"></i>Dúvidas</a>
-                    </li>
-                </ul>
-            </div>
-    </nav>
+<nav class="navbar fixed-top">
+    <button class="btn menu-btn shadow">
+<img src="./img/menu.svg" alt="menu" id="abrir">
+</button>
+    <a class="navbar-brand text-white nav-logo mr-auto" href="home.html">ETEC NEWS</a>
+    <div class="search-box ml-auto shadow">
+        <input type="text" class="search-input" placeholder="Procurando por algo?">
+        <a class="search-btn" href="#">
+        <img src="/img/search.svg" alt="search">
+        </a>
+    </div>
+</nav>
 
+    <!-- SIDEBARR -->
+        <div class="sidebar d-flex flex-column justify-content-between">
+            <header>
+                <h3 class="text-center logo-sidebar">ETEC NEWS</h3>
+                <button class="fechar">
+            <img src="./img/fechar.svg" alt="fechar">
+        </button>
+            </header>
+
+            <input type="text" placeholder="Procurando por algo?" class="search-input-sidebar px-2 focus-0">
+
+            <ul class="category">
+                <li>
+                    <img src="./img/home.svg" alt="home">
+                    <a href="#home"></i>Home</a>
+                </li>
+                <li>
+                    <img src="./img/alert-circle.svg" alt="avisos">
+                    <a href="#avisos"></i>Avisos</a>
+                </li>
+                <li>
+                    <img src="./img/paperclip.svg" alt="noticias">
+                    <a href="#noticias"></i>Notícias</a>
+                </li>
+                <li>
+                    <img src="./img/film.svg" alt="videos">
+                    <a href="#videos"></i>Vídeos</a>
+                </li>
+            </ul>
+            <ul class="Help">
+                <li><img src="./img/mail.svg" alt="email">
+                    <a href="#contato"></i>Contate-nos</a>
+                </li>
+                <li><img src="./img/help-circle.svg" alt="duvidas">
+                    <a href="#footer"></i>Dúvidas</a>
+                </li>
+            </ul>
+        </div>
+</nav>
+
+<div class="container-fluid p-5 mt-5">
+    <div class="row">
+        <div class="col-12">
+            <div class="home-img">
+                <div class="home-content">
+                <h1 class="text-center text-white">Bem vindo a ETEC NEWS!</h1>
+                <h4 class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam consequuntur ullam obcaecati tempora harum dicta illo corporis laboriosam magni cumque.</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
     <!-- CARDS HOME -->
-    <div class="container home-home">
-        <div class="row mt-5">
+    <div class="container-fluid px-md-5 home">
+        <div class="row mt-5 px-md-5">
             <div class="col-12 col-sm-12 col-md-7">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-12 col-sm-12 col-md-12">
-                            <div class="box card-home-principal">
+                            <div class="box card-home-principal mt-5">
                                 <div class="content">
                                     <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam...</p>
                                     <a class="btn btn-primary ver-mais" href="noticias.html">Ver Mais</a>
@@ -77,11 +99,10 @@
             <div class="col-12 col-sm-12 col-md-5">
 
                 <div class="container-fluid">
-                    <div class="row mt-md-2">
-
+                    <div class="row mt-md-4">
                         <div class="col-sm-12 col-md-12">
-                            <div class="box card-home  mt-4">
-                                <div class="box card-secundary">
+                            <div class="box card-home">
+                                <div class="box card-secundary mt-4">
                                     <div class="content">
                                         <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam...</p>
                                         <a class="btn btn-primary ver-mais" href="noticias.html">Ver Mais</a>
@@ -106,35 +127,35 @@
                 </div>
             </div>
         </div>
-        <div class="row mt-5">
+        <div class="row mt-md-5">
             <div class="col-12 col-sm-12 col-md-12">
 
                 <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-sm-4 col-12">
+                    <div class="row px-md-5">
+                        <div class="col-sm-12 col-12 col-md-4">
                             <div class="box card-home  mt-4 mt-md-0">
                                 <div class="box card-tertiary">
-                                    <div class="content">
+                                    <div class="content px-5 py-3">
                                         <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam...</p>
                                         <a class="btn btn-primary ver-mais" href="noticias.html">Ver Mais</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-4 col-12">
+                        <div class="col-sm-12 col-12 col-md-4">
                             <div class="box card-home  mt-4 mt-md-0">
                                 <div class="box card-tertiary">
-                                    <div class="content">
+                                    <div class="content px-5 py-3">
                                         <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam...</p>
                                         <a class="btn btn-primary ver-mais" href="noticias.html">Ver Mais</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-4">
+                        <div class="col-12 col-sm-12 col-md-4">
                             <div class="box card-home  mt-4 mt-md-0">
                                 <div class="box card-tertiary">
-                                    <div class="content">
+                                    <div class="content px-5 py-3">
                                         <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam...</p>
                                         <a class="btn btn-primary ver-mais" href="noticias.html">Ver Mais</a>
                                     </div>
@@ -147,7 +168,7 @@
         </div>
     </div>
     </div>
-
+    
     <!-- AVISOS -->
     <div class=" avisos py-3">
         <h2 class="text-white text-center">IMPORTANTE</h2>
@@ -214,6 +235,7 @@
             </a>
         </div>
     </div>
+
 
     <!-- NOTICIAS POR CURSO -->
     <h2 class="text-center mt-5">Noticias por Curso</h2>
@@ -682,6 +704,7 @@
         </form>
         </div>
     </div>
+
     <!-- RODAPÉ -->
     <div class="container-fluid mt-5 bg-dark footer" id="footer">
         <div class="row">
@@ -691,10 +714,6 @@
                     <div class="row mt-5">
                         <div class="col-sm-3">
                             <img src="./img/ETEC.svg" alt="etec">
-                            <div class="social d-flex ml-5 mt-3">
-                                <img src="./img/facebook.png" alt="facebook" class="img-fluid mr-2">
-                                <img src="./img/instagram.png" alt="instagram" class="img-fluid">
-                            </div>
                         </div>
                         <div class="col-sm-3">
                             <h5>Links</h5>
@@ -725,10 +744,10 @@
                     </div>
                 </div>
 
-                <script src="./js/script.js"></script>
-                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>
