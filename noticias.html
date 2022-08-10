@@ -12,51 +12,60 @@
 </head>
 
 <body>
+
     <!-- NAVBAR // SIDEBAR -->
     <nav class="navbar fixed-top">
-        <button class="btn menu-btn ">
-<img src="./img/menu.svg" alt="menu" id="abrir">
-</button>
-        <h2 class="navbar-brand mx-auto my-auto">ETEC NEWS</h2>
-
-        <div class="dark">
-            <!-- SIDEBARR -->
-            <div class="sidebar">
+        <button class="btn menu-btn">
+    <img src="./img/menu.svg" alt="menu" id="abrir">
+    </button>
+        <a class="navbar-brand text-white nav-logo mr-auto" href="index.html">ETEC NEWS</a>
+        <div class="search-box ml-auto">
+            <input type="text" class="search-input" placeholder="Procurando por algo?">
+            <a class="search-btn" href="#">
+            <img src="/img/search.svg" alt="search">
+            </a>
+        </div>
+    </nav>
+    
+        <!-- SIDEBARR -->
+            <div class="sidebar d-flex flex-column justify-content-between">
                 <header>
                     <h3 class="text-center logo-sidebar">ETEC NEWS</h3>
                     <button class="fechar">
-            <img src="./img/fechar.svg" alt="fechar">
-        </button>
+                <img src="./img/fechar.svg" alt="fechar">
+            </button>
                 </header>
+    
+                <input type="text" placeholder="Procurando por algo?" class="search-input-sidebar px-2 focus-0">
+    
                 <ul class="category">
                     <li>
                         <img src="./img/home.svg" alt="home">
-                        <a href="#"></i>Home</a>
+                        <a href="#home"></i>Home</a>
                     </li>
                     <li>
                         <img src="./img/alert-circle.svg" alt="avisos">
-                        <a href="#"></i>Avisos</a>
+                        <a href="#avisos"></i>Avisos</a>
                     </li>
                     <li>
                         <img src="./img/paperclip.svg" alt="noticias">
-                        <a href="#"></i>Notícias</a>
+                        <a href="#noticias"></i>Notícias</a>
                     </li>
                     <li>
                         <img src="./img/film.svg" alt="videos">
-                        <a href="#"></i>Vídeos</a>
+                        <a href="#videos"></i>Vídeos</a>
                     </li>
                 </ul>
                 <ul class="Help">
                     <li><img src="./img/mail.svg" alt="email">
-                        <a href="#"></i>Contate-nos</a>
+                        <a href="#contato"></i>Contate-nos</a>
                     </li>
                     <li><img src="./img/help-circle.svg" alt="duvidas">
-                        <a href="#"></i>Dúvidas</a>
+                        <a href="#footer"></i>Dúvidas</a>
                     </li>
                 </ul>
             </div>
     </nav>
-
 
 
     <div class="container mt-5">
@@ -137,6 +146,43 @@
         </div>
     </div>
 
+ <div class="container-fluid mt-5 bg-dark footer" id="footer">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12">
+
+                <div class="container">
+                    <div class="row mt-5">
+                        <div class="col-sm-3">
+                            <img src="./img/ETEC.svg" alt="etec">
+                        </div>
+                        <div class="col-sm-3">
+                            <h5>Links</h5>
+                            <ul>
+                                <li><a href="#"> Home</a></li>
+                                <li><a href="#"> Avisos Importantes</a></li>
+                                <li><a href="#"> Vídeos</a></li>
+                                <li><a href="#"> Notícias por cursos</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-3">
+                            <h5>Suporte</h5>
+                            <ul>
+                                <li><a href="#"> Central de Ajuda</a></li>
+                                <li><a href="#"> Feedbacks</a></li>
+                                <li><a href="#"> Entre em Contato</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-3">
+                            <h5>Fale Conosco</h5>
+                            <ul>
+                                <li>Telefone: (14) 3523-1217</li>
+                                <li> Telefone: (14) 3523-4859</li>
+                            </ul>
+                        </div>
+                        <div class="border-footer"></div>
+                        <p class="text-center">© Copyright Etec Lins. Todos os direitos reservados.</p>
+                    </div>
+                </div>
 
 
 
