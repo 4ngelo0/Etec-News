@@ -11,3 +11,9 @@
         display: none;
     }
 }
+
+@media (max-width: 740px ) {
+    .new-tittle{
+        text-align: center;
+    }
+}

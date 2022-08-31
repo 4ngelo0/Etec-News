@@ -21,7 +21,7 @@
     <div class="search-box ml-auto">
         <input type="text" class="search-input" placeholder="Procurando por algo?">
         <a class="search-btn" href="#">
-        <img src="/img/search.svg" alt="search">
+        <img src="./img/search.svg" alt="search">
         </a>
     </div>
 </nav>
@@ -50,10 +50,6 @@
                     <img src="./img/paperclip.svg" alt="noticias">
                     <a href="#noticias"></i>Notícias</a>
                 </li>
-                <li>
-                    <img src="./img/film.svg" alt="videos">
-                    <a href="#videos"></i>Vídeos</a>
-                </li>
             </ul>
             <ul class="Help">
                 <li><img src="./img/mail.svg" alt="email">
@@ -68,7 +64,7 @@
 
 
     <!-- CARDS HOME -->
-    <div class="container-fluid px-5 home">
+    <div class="container-fluid px-5 home" id="home">
         <div class="row mt-5 px-md-5">
             <div class="col-12 col-sm-12 col-md-7">
                 <div class="container-fluid">
@@ -158,7 +154,7 @@
     </div>
     
     <!-- AVISOS -->
-    <div class=" avisos py-3">
+    <div class=" avisos py-3" id="avisos">
         <h2 class="text-white text-center">IMPORTANTE</h2>
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
@@ -226,6 +222,7 @@
 
 
     <!-- NOTICIAS POR CURSO -->
+    <div id="noticias">
     <h2 class="text-center mt-5">Noticias por Curso</h2>
     <nav>
         <div class="nav  mt-5 d-flex justify-content-center cursos" id="nav-tab" role="tablist">
@@ -250,7 +247,7 @@
                                     <div class="box card-new">
                                         <div class="content">
                                             <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-                                            <button class="btn btn-primary ver-mais">Ver Mais</button>
+                                            <a class="btn btn-primary ver-mais" href="noticias.html">Ver Mais</a>
                                         </div>
                                     </div>
                                 </div>
@@ -258,7 +255,7 @@
                                     <div class="box card-new">
                                         <div class="content">
                                             <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-                                            <button class="btn btn-primary ver-mais">Ver Mais</button>
+                                            <a class="btn btn-primary ver-mais" href="noticias.html">Ver Mais</a>
                                         </div>
                                     </div>
                                 </div>
@@ -266,7 +263,7 @@
                                     <div class="box card-new">
                                         <div class="content">
                                             <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-                                            <button class="btn btn-primary ver-mais">Ver Mais</button>
+                                            <a class="btn btn-primary ver-mais" href="noticias.html">Ver Mais</a>
                                         </div>
                                     </div>
                                 </div>
@@ -274,7 +271,7 @@
                                     <div class="box card-new">
                                         <div class="content">
                                             <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-                                            <button class="btn btn-primary ver-mais">Ver Mais</button>
+                                            <a class="btn btn-primary ver-mais" href="noticias.html">Ver Mais</a>
                                         </div>
                                     </div>
                                 </div>
@@ -282,7 +279,7 @@
                                     <div class="box card-new">
                                         <div class="content">
                                             <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-                                            <button class="btn btn-primary ver-mais">Ver Mais</button>
+                                            <a class="btn btn-primary ver-mais" href="noticias.html">Ver Mais</a>
                                         </div>
                                     </div>
                                 </div>
@@ -290,7 +287,7 @@
                                     <div class="box card-new">
                                         <div class="content">
                                             <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-                                            <button class="btn btn-primary ver-mais">Ver Mais</button>
+                                            <a class="btn btn-primary ver-mais" href="noticias.html">Ver Mais</a>
                                         </div>
                                     </div>
                                 </div>
@@ -301,40 +298,32 @@
             </div>
         </div>
         <div class="tab-pane fade" id="LIN" role="tabpanel" aria-labelledby="LIN-tab">
-            <div class="container">
+            <div class="container ">
                 <div class="row mt-3">
                     <div class="col-12 col-sm-12 col-md-12">
                         <div class="container-fluid mt-5">
                             <div class="row">
-                                <div class="col-sm-4">
+                                <div class="col-sm-4 mt-sm-4 mt-md-0">
                                     <div class="box card-new">
                                         <div class="content">
                                             <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-                                            <button class="btn btn-primary ver-mais">Ver Mais</button>
+                                            <a class="btn btn-primary ver-mais" href="noticias.html">Ver Mais</a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-4">
-                                    <div class="box card-new mt-md-0 mt-5">
-                                        <div class="content">
-                                            <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-                                            <button class="btn btn-primary ver-mais">Ver Mais</button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-4">
-                                    <div class="box card-new mt-md-0 mt-5">
-                                        <div class="content">
-                                            <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-                                            <button class="btn btn-primary ver-mais">Ver Mais</button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-4 mt-4 ">
+                                <div class="col-sm-4 mt-md-0 mt-5">
                                     <div class="box card-new">
                                         <div class="content">
                                             <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-                                            <button class="btn btn-primary ver-mais">Ver Mais</button>
+                                            <a class="btn btn-primary ver-mais" href="noticias.html">Ver Mais</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 mt-md-0 mt-5">
+                                    <div class="box card-new">
+                                        <div class="content">
+                                            <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                                            <a class="btn btn-primary ver-mais" href="noticias.html">Ver Mais</a>
                                         </div>
                                     </div>
                                 </div>
@@ -342,7 +331,7 @@
                                     <div class="box card-new">
                                         <div class="content">
                                             <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-                                            <button class="btn btn-primary ver-mais">Ver Mais</button>
+                                            <a class="btn btn-primary ver-mais" href="noticias.html">Ver Mais</a>
                                         </div>
                                     </div>
                                 </div>
@@ -350,7 +339,15 @@
                                     <div class="box card-new">
                                         <div class="content">
                                             <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-                                            <button class="btn btn-primary ver-mais">Ver Mais</button>
+                                            <a class="btn btn-primary ver-mais" href="noticias.html">Ver Mais</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 mt-4">
+                                    <div class="box card-new">
+                                        <div class="content">
+                                            <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                                            <a class="btn btn-primary ver-mais" href="noticias.html">Ver Mais</a>
                                         </div>
                                     </div>
                                 </div>
@@ -361,16 +358,16 @@
             </div>
         </div>
         <div class="tab-pane fade" id="CONT" role="tabpanel" aria-labelledby="CONT-tab">
-            <div class="container">
+            <div class="container ">
                 <div class="row mt-3">
                     <div class="col-12 col-sm-12 col-md-12">
                         <div class="container-fluid mt-5">
                             <div class="row">
-                                <div class="col-sm-4 mt-md-0 mt-5">
+                                <div class="col-sm-4 mt-sm-4 mt-md-0">
                                     <div class="box card-new">
                                         <div class="content">
                                             <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-                                            <button class="btn btn-primary ver-mais">Ver Mais</button>
+                                            <a class="btn btn-primary ver-mais" href="noticias.html">Ver Mais</a>
                                         </div>
                                     </div>
                                 </div>
@@ -378,7 +375,7 @@
                                     <div class="box card-new">
                                         <div class="content">
                                             <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-                                            <button class="btn btn-primary ver-mais">Ver Mais</button>
+                                            <a class="btn btn-primary ver-mais" href="noticias.html">Ver Mais</a>
                                         </div>
                                     </div>
                                 </div>
@@ -386,7 +383,7 @@
                                     <div class="box card-new">
                                         <div class="content">
                                             <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-                                            <button class="btn btn-primary ver-mais">Ver Mais</button>
+                                            <a class="btn btn-primary ver-mais" href="noticias.html">Ver Mais</a>
                                         </div>
                                     </div>
                                 </div>
@@ -394,7 +391,7 @@
                                     <div class="box card-new">
                                         <div class="content">
                                             <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-                                            <button class="btn btn-primary ver-mais">Ver Mais</button>
+                                            <a class="btn btn-primary ver-mais" href="noticias.html">Ver Mais</a>
                                         </div>
                                     </div>
                                 </div>
@@ -402,7 +399,7 @@
                                     <div class="box card-new">
                                         <div class="content">
                                             <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-                                            <button class="btn btn-primary ver-mais">Ver Mais</button>
+                                            <a class="btn btn-primary ver-mais" href="noticias.html">Ver Mais</a>
                                         </div>
                                     </div>
                                 </div>
@@ -410,7 +407,7 @@
                                     <div class="box card-new">
                                         <div class="content">
                                             <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-                                            <button class="btn btn-primary ver-mais">Ver Mais</button>
+                                            <a class="btn btn-primary ver-mais" href="noticias.html">Ver Mais</a>
                                         </div>
                                     </div>
                                 </div>
@@ -422,55 +419,57 @@
         </div>
         <div class="tab-pane fade" id="RH" role="tabpanel" aria-labelledby="RH-tab">
             <div class="container">
-                <div class="row mt-3">
-                    <div class="col-12 col-sm-12 col-md-12">
-                        <div class="container-fluid mt-5">
-                            <div class="row">
-                                <div class="col-sm-4 mt-md-0 mt-5">
-                                    <div class="box card-new">
-                                        <div class="content">
-                                            <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-                                            <button class="btn btn-primary ver-mais">Ver Mais</button>
+                <div class="container ">
+                    <div class="row mt-3">
+                        <div class="col-12 col-sm-12 col-md-12">
+                            <div class="container-fluid mt-5">
+                                <div class="row">
+                                    <div class="col-sm-4 mt-sm-4 mt-md-0">
+                                        <div class="box card-new">
+                                            <div class="content">
+                                                <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                                                <a class="btn btn-primary ver-mais" href="noticias.html">Ver Mais</a>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-sm-4 mt-md-0 mt-5">
-                                    <div class="box card-new">
-                                        <div class="content">
-                                            <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-                                            <button class="btn btn-primary ver-mais">Ver Mais</button>
+                                    <div class="col-sm-4 mt-md-0 mt-5">
+                                        <div class="box card-new">
+                                            <div class="content">
+                                                <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                                                <a class="btn btn-primary ver-mais" href="noticias.html">Ver Mais</a>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-sm-4 mt-md-0 mt-5">
-                                    <div class="box card-new">
-                                        <div class="content">
-                                            <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-                                            <button class="btn btn-primary ver-mais">Ver Mais</button>
+                                    <div class="col-sm-4 mt-md-0 mt-5">
+                                        <div class="box card-new">
+                                            <div class="content">
+                                                <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                                                <a class="btn btn-primary ver-mais" href="noticias.html">Ver Mais</a>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-sm-4 mt-4">
-                                    <div class="box card-new">
-                                        <div class="content">
-                                            <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-                                            <button class="btn btn-primary ver-mais">Ver Mais</button>
+                                    <div class="col-sm-4 mt-4">
+                                        <div class="box card-new">
+                                            <div class="content">
+                                                <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                                                <a class="btn btn-primary ver-mais" href="noticias.html">Ver Mais</a>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-sm-4 mt-4">
-                                    <div class="box card-new">
-                                        <div class="content">
-                                            <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-                                            <button class="btn btn-primary ver-mais">Ver Mais</button>
+                                    <div class="col-sm-4 mt-4">
+                                        <div class="box card-new">
+                                            <div class="content">
+                                                <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                                                <a class="btn btn-primary ver-mais" href="noticias.html">Ver Mais</a>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-sm-4 mt-4">
-                                    <div class="box card-new">
-                                        <div class="content">
-                                            <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-                                            <button class="btn btn-primary ver-mais">Ver Mais</button>
+                                    <div class="col-sm-4 mt-4">
+                                        <div class="box card-new">
+                                            <div class="content">
+                                                <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                                                <a class="btn btn-primary ver-mais" href="noticias.html">Ver Mais</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -482,55 +481,57 @@
         </div>
         <div class="tab-pane fade" id="MAR" role="tabpanel" aria-labelledby="MAR-tab">
             <div class="container">
-                <div class="row mt-3">
-                    <div class="col-12 col-sm-12 col-md-12">
-                        <div class="container-fluid mt-5">
-                            <div class="row">
-                                <div class="col-sm-4 mt-md-0 mt-5">
-                                    <div class="box card-new">
-                                        <div class="content">
-                                            <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-                                            <button class="btn btn-primary ver-mais">Ver Mais</button>
+                <div class="container ">
+                    <div class="row mt-3">
+                        <div class="col-12 col-sm-12 col-md-12">
+                            <div class="container-fluid mt-5">
+                                <div class="row">
+                                    <div class="col-sm-4 mt-sm-4 mt-md-0">
+                                        <div class="box card-new">
+                                            <div class="content">
+                                                <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                                                <a class="btn btn-primary ver-mais" href="noticias.html">Ver Mais</a>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-sm-4 mt-md-0 mt-5">
-                                    <div class="box card-new">
-                                        <div class="content">
-                                            <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-                                            <button class="btn btn-primary ver-mais">Ver Mais</button>
+                                    <div class="col-sm-4 mt-md-0 mt-5">
+                                        <div class="box card-new">
+                                            <div class="content">
+                                                <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                                                <a class="btn btn-primary ver-mais" href="noticias.html">Ver Mais</a>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-sm-4 mt-md-0 mt-5">
-                                    <div class="box card-new">
-                                        <div class="content">
-                                            <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-                                            <button class="btn btn-primary ver-mais">Ver Mais</button>
+                                    <div class="col-sm-4 mt-md-0 mt-5">
+                                        <div class="box card-new">
+                                            <div class="content">
+                                                <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                                                <a class="btn btn-primary ver-mais" href="noticias.html">Ver Mais</a>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-sm-4 mt-4">
-                                    <div class="box card-new">
-                                        <div class="content">
-                                            <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-                                            <button class="btn btn-primary ver-mais">Ver Mais</button>
+                                    <div class="col-sm-4 mt-4">
+                                        <div class="box card-new">
+                                            <div class="content">
+                                                <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                                                <a class="btn btn-primary ver-mais" href="noticias.html">Ver Mais</a>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-sm-4 mt-4">
-                                    <div class="box card-new">
-                                        <div class="content">
-                                            <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-                                            <button class="btn btn-primary ver-mais">Ver Mais</button>
+                                    <div class="col-sm-4 mt-4">
+                                        <div class="box card-new">
+                                            <div class="content">
+                                                <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                                                <a class="btn btn-primary ver-mais" href="noticias.html">Ver Mais</a>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-sm-4 mt-4">
-                                    <div class="box card-new">
-                                        <div class="content">
-                                            <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-                                            <button class="btn btn-primary ver-mais">Ver Mais</button>
+                                    <div class="col-sm-4 mt-4">
+                                        <div class="box card-new">
+                                            <div class="content">
+                                                <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                                                <a class="btn btn-primary ver-mais" href="noticias.html">Ver Mais</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -538,19 +539,18 @@
                         </div>
                     </div>
                 </div>
-            </div>
         </div>
         <div class="tab-pane fade" id="ENF" role="tabpanel" aria-labelledby="ENF-tab">
-            <div class="container">
+            <div class="container ">
                 <div class="row mt-3">
                     <div class="col-12 col-sm-12 col-md-12">
                         <div class="container-fluid mt-5">
                             <div class="row">
-                                <div class="col-sm-4 mt-md-0 mt-5">
+                                <div class="col-sm-4 mt-sm-4 mt-md-0">
                                     <div class="box card-new">
                                         <div class="content">
                                             <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-                                            <button class="btn btn-primary ver-mais">Ver Mais</button>
+                                            <a class="btn btn-primary ver-mais" href="noticias.html">Ver Mais</a>
                                         </div>
                                     </div>
                                 </div>
@@ -558,7 +558,7 @@
                                     <div class="box card-new">
                                         <div class="content">
                                             <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-                                            <button class="btn btn-primary ver-mais">Ver Mais</button>
+                                            <a class="btn btn-primary ver-mais" href="noticias.html">Ver Mais</a>
                                         </div>
                                     </div>
                                 </div>
@@ -566,7 +566,7 @@
                                     <div class="box card-new">
                                         <div class="content">
                                             <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-                                            <button class="btn btn-primary ver-mais">Ver Mais</button>
+                                            <a class="btn btn-primary ver-mais" href="noticias.html">Ver Mais</a>
                                         </div>
                                     </div>
                                 </div>
@@ -574,7 +574,7 @@
                                     <div class="box card-new">
                                         <div class="content">
                                             <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-                                            <button class="btn btn-primary ver-mais">Ver Mais</button>
+                                            <a class="btn btn-primary ver-mais" href="noticias.html">Ver Mais</a>
                                         </div>
                                     </div>
                                 </div>
@@ -582,7 +582,7 @@
                                     <div class="box card-new">
                                         <div class="content">
                                             <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-                                            <button class="btn btn-primary ver-mais">Ver Mais</button>
+                                            <a class="btn btn-primary ver-mais" href="noticias.html">Ver Mais</a>
                                         </div>
                                     </div>
                                 </div>
@@ -590,7 +590,7 @@
                                     <div class="box card-new">
                                         <div class="content">
                                             <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-                                            <button class="btn btn-primary ver-mais">Ver Mais</button>
+                                            <a class="btn btn-primary ver-mais" href="noticias.html">Ver Mais</a>
                                         </div>
                                     </div>
                                 </div>
@@ -601,16 +601,16 @@
             </div>
         </div>
         <div class="tab-pane fade" id="QUI" role="tabpanel" aria-labelledby="QUI-tab">
-            <div class="container">
+            <div class="container ">
                 <div class="row mt-3">
                     <div class="col-12 col-sm-12 col-md-12">
                         <div class="container-fluid mt-5">
                             <div class="row">
-                                <div class="col-sm-4 mt-md-0 mt-5">
+                                <div class="col-sm-4 mt-sm-4 mt-md-0">
                                     <div class="box card-new">
                                         <div class="content">
                                             <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-                                            <button class="btn btn-primary ver-mais">Ver Mais</button>
+                                            <a class="btn btn-primary ver-mais" href="noticias.html">Ver Mais</a>
                                         </div>
                                     </div>
                                 </div>
@@ -618,7 +618,7 @@
                                     <div class="box card-new">
                                         <div class="content">
                                             <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-                                            <button class="btn btn-primary ver-mais">Ver Mais</button>
+                                            <a class="btn btn-primary ver-mais" href="noticias.html">Ver Mais</a>
                                         </div>
                                     </div>
                                 </div>
@@ -626,7 +626,7 @@
                                     <div class="box card-new">
                                         <div class="content">
                                             <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-                                            <button class="btn btn-primary ver-mais">Ver Mais</button>
+                                            <a class="btn btn-primary ver-mais" href="noticias.html">Ver Mais</a>
                                         </div>
                                     </div>
                                 </div>
@@ -634,7 +634,7 @@
                                     <div class="box card-new">
                                         <div class="content">
                                             <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-                                            <button class="btn btn-primary ver-mais">Ver Mais</button>
+                                            <a class="btn btn-primary ver-mais" href="noticias.html">Ver Mais</a>
                                         </div>
                                     </div>
                                 </div>
@@ -642,7 +642,7 @@
                                     <div class="box card-new">
                                         <div class="content">
                                             <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-                                            <button class="btn btn-primary ver-mais">Ver Mais</button>
+                                            <a class="btn btn-primary ver-mais" href="noticias.html">Ver Mais</a>
                                         </div>
                                     </div>
                                 </div>
@@ -650,7 +650,7 @@
                                     <div class="box card-new">
                                         <div class="content">
                                             <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-                                            <button class="btn btn-primary ver-mais">Ver Mais</button>
+                                            <a class="btn btn-primary ver-mais" href="noticias.html">Ver Mais</a>
                                         </div>
                                     </div>
                                 </div>
@@ -662,11 +662,11 @@
             <div>
             </div>
         </div>
-
+    </div>
 
     </div>
 
-    <div class="container  mt-5 contact-page">
+    <div class="container  mt-5 contact-page" id="contato">
         <form class="contact p-5 m-2 m-md-5">
             <h2 class="text-center mb-5">Entre em contato</h2>
             <div class="row">
